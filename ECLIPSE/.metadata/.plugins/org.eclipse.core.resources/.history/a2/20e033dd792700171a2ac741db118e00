@@ -1,0 +1,47 @@
+package Main;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.layout.Pane;
+public class MakeStuff {
+	public Label []labels;
+	public Button []buttons;
+	public ?
+	public Pane []panes;
+	public Scene []scenes;
+	
+	
+	public void makeLabels(int numberOfLabels) {
+		for(int I = 0; I < numberOfLabels; I ++) {
+			labels[I] = new Label();
+		}
+	}
+	public void makeButtons(int numberOfButtons) {
+		for(int I = 0; I < numberOfButtons; I ++) {
+			buttons[I] = new Button();
+		}
+	}
+	public void make(int numberOfLabels) {
+		for(int I = 0; I < numberOfLabels; I ++) {
+			labels[I] = new Label();
+		}
+	}
+////////////////////////////////////////////////////////////////
+	public void makePanes(int numberOfPanes) {
+		for(int I = 0; I < numberOfPanes; I ++) {
+			panes[I] = new Pane();
+		}
+	}
+	public void makeScenes(int numberOfScenes) {
+		for(int I = 0; I < numberOfScenes; I ++) {
+			scenes[I] = new Scene(null);
+		}
+	}
+////////////////////////////////////////////////////////////////
+	public void setUpPane(int whichPane) {
+		panes[whichPane].add
+	}
+	public void setUpScene() {
+		
+	}
+}
